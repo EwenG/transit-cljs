@@ -4,6 +4,6 @@ require("repl").start({useGlobal:true});
 require("../deps/closure-library/closure/goog/bootstrap/nodejs.js");
 require("../deps/closure-library/closure/goog/transit_deps.js");
 
-goog.require("com.cognitect.transit");
+goog.require("ewen.transit");
 
-global.transit = com.cognitect.transit;
+global.transit = ewen.transit;
